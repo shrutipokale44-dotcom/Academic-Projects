@@ -1,0 +1,45 @@
+ESP32-CAM Based Wireless Surveillance Robot
+A Wi-Fi controlled surveillance robot developed using ESP32-CAM and L298N motor driver for real-time video streaming and remote navigation through a web-based interface.
+
+📌 Project Overview
+This project focuses on developing a wireless surveillance system capable of live video monitoring and remote movement control. The robot uses ESP32-CAM as both the camera module and Wi-Fi server, enabling users to monitor and control the robot from any device connected to the network.
+
+🎯 Objectives
+Enable real-time video surveillance
+Provide wireless robot navigation through a web interface
+Implement Wi-Fi based monitoring and control
+Develop a low-cost embedded surveillance solution
+
+⚙️ Hardware Components
+ESP32-CAM Module
+L298N Motor Driver
+DC Gear Motors
+Robot Chassis
+Battery Pack
+Jumper Wires
+
+🧠 Software Tools
+Arduino IDE
+ESP32 Board Package
+Web-Based Control Interface
+
+📊 Features
+Real-time video streaming
+Wireless robot control
+Forward, Backward, Left and Right navigation
+Speed control through web dashboard
+Wi-Fi based monitoring
+Embedded and IoT based implementation
+
+📁 Documentation
+Circuit diagram available in Project Files
+Project report available in Report/ folder
+Demonstration video available in Media/ folder
+
+🏫 Institution
+D. Y. Patil College of Engineering & Technology, Kolhapur
+
+Department of Electronics & Telecommunication Engineering
+
+📝 Note
+This project utilizes ESP32-CAM open-source streaming examples as the base implementation. Hardware integration, robot assembly, motor control configuration, testing, debugging, and complete system deployment were performed as part of the project.
