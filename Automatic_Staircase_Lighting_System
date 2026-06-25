@@ -1,0 +1,63 @@
+Automatic Staircase Lighting System
+
+1. Project Overview
+The Automatic Staircase Lighting System is designed to automatically turn ON stair lights when a person approaches the staircase and turn them OFF after a fixed time.
+The system improves safety and reduces power consumption by ensuring lights operate only when required.
+
+This project was developed as part of academic coursework and implemented using sensors, logic gates, and timer circuits.
+
+2. Objective
+To automatically control staircase lighting using motion detection.
+To reduce energy wastage caused by unnecessary lighting.
+To improve safety in dark staircases.
+
+3. Components / Tools Used
+IR Sensors (2)
+NE555 Timer IC
+JK Flip-Flop (4027)
+OR Gate (74LS32)
+NOT Gates
+Resistors and Capacitors
+Potentiometer
+LED (Light)
+Battery / Power Supply
+Proteus Simulation Software
+
+4. Working Principle
+When a person is detected at the top or bottom of the staircase, the IR sensor generates a signal.
+The signal is processed through NOT gates and sent to the NE555 timer configured in monostable mode.
+The timer produces a pulse that activates the JK flip-flop.
+The LED (stair light) turns ON for a predefined time.
+After the delay, the output goes LOW and the light turns OFF automatically.
+
+5. Key Concepts Involved
+Sensor Interfacing
+Timer Circuits
+Digital Logic Gates
+Flip-Flop Operation
+Automation Systems
+
+6. Applications
+Homes and apartments
+Commercial buildings
+Hostels and offices
+Energy-efficient lighting systems
+
+7. Advantages
+Saves energy
+Improves safety
+Hands-free operation
+Low-cost solution
+Increases lifespan of lighting devices
+
+8. Learning Outcome
+Understood working of IR sensors.
+Learned timer-based control using NE555.
+Gained experience with logic gates and flip-flops.
+Improved skills in circuit simulation using Proteus.
+
+9. Future Improvements
+Real hardware implementation.
+IoT-based monitoring and control.
+Use of microcontroller for advanced control.
+This project demonstrates the practical application of basic electronics in building smart and energy-efficient automation systems.
