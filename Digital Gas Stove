@@ -1,0 +1,83 @@
+# Digital Gas Stove with Gas Leakage Detection
+
+# Project Overview
+
+The **Digital Child Lock Gas Stove** is an embedded system designed to improve kitchen safety by preventing unauthorized stove operation and detecting gas leakage. The system uses a password-based child lock mechanism and a gas sensor to monitor LPG leaks continuously. When gas leakage is detected, the system activates an alarm and automatically controls the gas flow using a solenoid valve, minimizing the risk of accidents.
+
+This project demonstrates the practical application of embedded systems in enhancing household safety and was developed as part of an academic project.
+
+
+# Objectives
+
+* Control gas flow using a solenoid valve.
+* Implement a password-based child lock mechanism.
+* Detect LPG gas leakage in real time.
+* Trigger an alarm when gas leakage is detected.
+* Improve kitchen safety and prevent accidental gas-related hazards.
+
+
+# Components Used
+
+* AT89C51 Microcontroller
+* MQ-6 / MQ-2 Gas Sensor
+* 4×4 Matrix Keypad
+* 16×2 LCD Display
+* Solenoid Valve
+* Buzzer
+* Relay Module
+* Crystal Oscillator
+* Power Supply
+* Resistors and Capacitors
+* Proteus Design Suite
+
+
+# Software Used
+
+* Proteus Design Suite
+* Keil uVision
+* Embedded C
+
+
+# Working Principle
+
+1. The user enters the correct password using the keypad.
+2. If the password is correct, the child lock is disabled and the gas stove can be operated.
+3. If an incorrect password is entered, access remains locked.
+4. The gas sensor continuously monitors the surrounding air for LPG leakage.
+5. If gas leakage is detected:
+
+   * The buzzer is activated.
+   * The solenoid valve automatically shuts off the gas supply.
+   * A warning message is displayed on the LCD.
+6. Once the environment becomes safe, the system returns to normal operation.
+
+
+# Features
+
+* Password-based child lock
+* Automatic gas leakage detection
+* Automatic gas shut-off using solenoid valve
+* Real-time LCD status display
+* Audible gas leakage alarm
+* Embedded C implementation
+* Proteus simulation
+
+
+# Applications
+
+* Smart Kitchens
+* Residential Homes
+* LPG Safety Systems
+* Educational Embedded Projects
+* Kitchen Automation
+* Home Safety Systems
+
+
+# Future Enhancements
+
+* IoT-based remote monitoring
+* Mobile application integration
+* SMS notification during gas leakage
+* Fingerprint authentication
+* Voice control using AI assistants
+* Cloud data logging
