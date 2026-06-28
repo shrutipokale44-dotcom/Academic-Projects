@@ -1,0 +1,67 @@
+# Air Pollution Analyzer using AT89C51 & PPD42NS Sensor
+
+#Project Overview
+The Air Pollution Analyzer is an embedded system designed to monitor dust concentration in the surrounding air using the AT89C51 microcontroller and PPD42NS dust sensor.
+The system continuously measures airborne dust particles, classifies air quality into Low, Medium, or High levels, and displays the result on a 16×2 LCD. The project was designed and tested using Proteus Design Suite.
+
+
+#Objectives
+- Monitor air quality in real time
+- Measure dust concentration using PPD42NS sensor
+- Classify air quality as Low, Medium, or High
+- Display results on a 16×2 LCD
+- Develop a low-cost embedded monitoring system
+
+#Components Used
+- AT89C51 Microcontroller
+- PPD42NS Dust Sensor
+- 16×2 LCD Display
+- Crystal Oscillator
+- Capacitors
+- Resistors
+- Power Supply (5V)
+- Proteus Design Suite
+
+#Software Used
+- Proteus Design Suite
+- Keil uVision
+- Embedded C
+
+#Working Principle
+1. The PPD42NS sensor detects dust particles in the air.
+2. The sensor generates pulse signals proportional to dust concentration.
+3. AT89C51 measures the Low Pulse Occupancy (LPO).
+4. The controller calculates dust concentration.
+5. Air quality is classified as:
+   - LOW
+   - MEDIUM
+   - HIGH
+6. Results are displayed on the 16×2 LCD every 10 seconds.
+
+#Features
+- Real-time dust monitoring
+- LCD-based air quality display
+- Low power consumption
+- Cost-effective design
+- Proteus simulation
+- Embedded C implementation
+
+#Applications
+- Indoor Air Quality Monitoring
+- Smart Homes
+- Laboratories
+- Environmental Monitoring
+- Educational Projects
+- Industrial Safety
+
+#Sustainable Development Goals
+- SDG 3 – Good Health and Well-being
+- SDG 11 – Sustainable Cities and Communities
+- SDG 13 – Climate Action
+
+#Future Improvements
+- IoT Integration (ESP8266/ESP32)
+- Cloud Data Logging
+- Mobile Application
+- Wi-Fi Monitoring
+- AI-Based Air Quality Prediction
